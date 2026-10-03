@@ -1,0 +1,12 @@
+{
+  "appId": "com.shiguangzhou.app",
+  "appName": "时光轴",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "LocalNotifications": {
+      "iconColor": "#5566f6"
+    }
+  }
+}

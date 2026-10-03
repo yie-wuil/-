@@ -1,0 +1,21 @@
+{
+  "name": "shiguangzhou",
+  "productName": "时光轴",
+  "version": "1.2.0",
+  "description": "年月日任务日程管理与番茄钟",
+  "main": "main.js",
+  "author": "时光轴",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "node pack.js"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["electron"]
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.3.6",
+    "electron": "^33.2.1"
+  }
+}

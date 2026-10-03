@@ -1,0 +1,26 @@
+# ---- 依赖 ----
+node_modules/
+.pnpm-store/
+
+# ---- 构建产物 ----
+dist/
+mobile/android/app/build/
+mobile/android/build/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/app/src/main/assets/public/
+*.apk
+*.exe
+
+# ---- 本地环境 ----
+_*.log
+_*.err
+_*.js
+mobile/_*
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+# 截图重复目录（ASCII 副本在 docs/screenshots/）
+手机版预览/

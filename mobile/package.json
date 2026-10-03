@@ -1,0 +1,21 @@
+{
+  "name": "shiguangzhou-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "description": "时光轴 手机版 - 提醒必达的日程工具",
+  "scripts": {
+    "build": "esbuild src/app.js --bundle --format=iife --target=es2019 --outfile=www/app.js --charset=utf8 --log-level=warning",
+    "sync": "npm run build && cap sync android",
+    "apk": "npm run sync && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/local-notifications": "^6.1.0",
+    "@capacitor/status-bar": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0",
+    "esbuild": "^0.28.2"
+  }
+}
