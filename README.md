@@ -14,6 +14,13 @@ Windows 桌面版  Android 手机版  数据只存本机
 
 ---
 本项目完全由deepseek 4.1 flash开发，消耗2亿token制作
+## ⬇️ 下载安装
+
+### Android 手机版
+**👉 [点这里下载最新版 APK](https://github.com/yie-wuil/shiguangzhou/releases/latest)**
+
+装完打开 App 后，**请跟着首页提示把「提醒健康检查」5 项弄成正常**。
+...
 
 > **到点一定响，而且能直接在通知上打勾。**
 
